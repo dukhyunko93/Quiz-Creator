@@ -1,0 +1,28 @@
+{
+  "name": "quiz-maker",
+  "version": "1.0.0",
+  "description": "Run on terminal:  node server.js",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "activestorage": "^5.2.4-3",
+    "bootstrap": "^4.5.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukhyunko93/QuizCreator_frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dukhyunko93/QuizCreator_frontend/issues"
+  },
+  "homepage": "https://github.com/dukhyunko93/QuizCreator_frontend#readme"
+}
